@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+<title>Formularz</title> 
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="formularz.css"> 
+</head>
+
+<body>
+
+ 
+
+ <div class="imgcontainer"> 
+<form action="/action_page.php">
+
+<fieldset>
+<legend>Zaznacz dowolną przez ciebie liczbe kratek </legend>
+<h4>Zaznacz dowolną ilość kratek</h4> 
+<input type="checkbox" name="Opcja 1" value="Bike">Opcja 1 <br>
+<input type="checkbox" name="Opcja 2" value="Car">Opcja 2 <br>
+<input type="checkbox" name="Opcja 3" value="Car">Opcja 3 <br></br>
+<h4>Zaznacz dowolną ilość opcji z listy</h4> 
+<select name="opcje" size="3" multiple>
+<option value="brak">Brak</option>
+<option value="Opcja 1" >Opcja 1</option>
+<option value="Opcja 2">Opcja 2</option>
+<option value="Opcja 3">Opcja 3</option>
+<option value="Opcja 4">Opcja 4</option>
+<input type="hidden">
+</fieldset>
+</form>
+</div>
+
+
+ <div class="imgcontainer"> 
+
+<form action="/action_page.php">
+<fieldset>
+<legend>Kontrolki jednokrotnego wyboru</legend>
+<h4>Wybierz tylko jedną opcję</h4> 
+<input type="radio" name="Opcja" value="Opcja 1" checked >Opcja 1 
+<br>
+<input type="radio" name="Opcja" value="Opcja 2 ">Opcja 2
+<br>
+<input type="radio" name="Opcja" value="Opcja 3">Opcja 3
+<br></br>
+<h4>Wybierz jedną opcję z listy rozwijanej</h4> 
+
+<select name="lista-rozwijana">
+        <option value="brak">Brak</option>
+        <option value="Opcja 1">Opcja 1</option>
+        <option value="Opcja 2">Opcja 2</option>
+        <option value="Opcja 3">Opcja 3</option>
+        <option value="Opcja 4">Opcja 4</option>
+		
+<input type="hidden">
+</fieldset>
+
+</div>
+
+
+</form>
+
+<div class="imgcontainer"> 
+<form action="/action_page.php">
+<fieldset>
+<legend>Pole tekstowe</legend>
+<h4>Napisz opinię</h4> 
+<textarea name="message" rows="5" cols="30">Opinia</textarea>
+</fieldset>
+</form>
+</div>
+<input type="submit" value="zatwierdź">
+
+
+</body>
+</html> 

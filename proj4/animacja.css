@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+}
+
+div.kontener {
+  margin: 300px 400px;
+}
+
+div.romb {
+  background-image: linear-gradient(rgb(94, 255, 0), rgb(209, 192, 255));
+  box-shadow: 3px 4px 5px black;
+  width: 15px;
+  padding: 80px;
+
+  margin: 30px;
+  transform: skew(20deg,0deg);
+  float: right;
+  animation-name: obrot;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes obrot {
+	from {transform: skew(20deg,20deg);}
+	to {transform: skew(-20deg,-20deg);}
+}

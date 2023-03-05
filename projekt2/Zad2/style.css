@@ -1,0 +1,110 @@
+nav
+{
+	color:blue;
+	padding:5px;
+}
+
+header
+{
+	
+	text-align:center;
+	font-size:32px;
+	font-family: 'Courier New', monospace;
+}
+
+.newspaper
+{
+	column-count:2;
+}
+
+body
+{
+	margin-left:400px;
+	margin-right:400px;
+}
+
+.container
+{
+	text-align:justify;
+	font-size: 18px;
+	margin-left:20px;
+	margin-top:80px;
+	color: blue;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+.relative
+{
+	position: relative;
+	top:300px;
+	left:800px;
+	border-radius: 40px 10px 10px 40px;
+	background-color:blue;
+	opacity:0.75;
+	margin-right:50px;
+	padding-left:40px;
+	width:180px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 50% 50%;	
+  column-gap: 30px;
+}
+
+#rcorners
+{
+	border-radius:25px;
+	background-color:blue;
+	border: 2px solid rgb(255, 250, 240);
+	color:white;
+	padding:7px;
+}
+
+
+a.top:hover
+{
+	border: 2px solid black;
+	text-align:center;
+}
+
+a.menu
+{
+	display:block;
+	color:white;
+	font-size:18px;
+	
+}
+a.menu:hover
+{
+	text-decoration:underline;
+}
+
+article
+{
+	margin-top:20px;
+	border-top: 8px double black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding-right:50px;
+	padding-left:20px;
+	text-align:justify;
+}
+
+.home
+{
+	position:relative;
+	top:60px;
+	left:30px;
+	height:100px;
+	width:100px;
+	background-color:blue;
+	color:white;
+	font-size:20px;
+	line-height:100px;
+	text-align:center;
+}

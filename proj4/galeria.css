@@ -1,0 +1,54 @@
+div img {
+	border-radius: 50px;
+	opacity: 0.75;
+	box-shadow: 2px 2px 4px black;
+}
+
+div.a img {
+	transform: rotate(20deg);
+	position: absolute;
+	height: 60%;
+	z-index: 1;
+	margin: 200px 850px;
+}
+
+div.b img {
+	transform: rotate(-10deg);
+	position: absolute;
+	width: 30%;
+	margin: 250px 325px;
+}
+
+div.c img {
+	transform: rotate(10deg);
+	position: absolute;
+	width: 30%;
+	margin: 75px 300px;
+}
+
+div.d img {
+	transform: rotate(5deg);
+	position: absolute;
+	width: 30%;
+	margin: 350px 600px;
+}
+
+div.e img {
+	transform: rotate(-20deg);
+	position: absolute;
+	width: 35%;
+	margin: 75px 850px;
+}
+
+div.f img {
+	transform: rotate(-5deg);
+	position: absolute;
+	width: 30%;
+	margin: 50px 500px;
+}
+
+div img:hover {
+	z-index: 1;
+	opacity: 1.0;
+	transform: rotate(0deg);
+}

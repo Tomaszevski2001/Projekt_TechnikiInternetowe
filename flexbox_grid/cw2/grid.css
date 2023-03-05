@@ -1,0 +1,26 @@
+
+.grid-item {
+display: grid;
+grid-template-columns: repeat(5, 200px);
+
+}
+@media screen and (max-width: 1200px) {
+  .grid-item {
+    display: grid;
+	grid-template-columns: repeat(2, 200px);
+  }
+}
+@media screen and (max-width: 800px) {
+  .grid-item {
+    display: grid;
+	grid-template-columns: repeat(1, 200px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .grid-item {
+    display: grid;
+	
+  }
+}
+
